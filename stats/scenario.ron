@@ -6,6 +6,6 @@
     Release(action:Editor(ToggleEditorMode)),
     Press(action:Shared(Stats)),
     Release(action:Shared(Stats)),
-    Screenshot(path: "stats.png"),
+    Screenshot(frame_dt: 50, path: "stats.png"),
     // ExitGame(frame: 210),
 ]
